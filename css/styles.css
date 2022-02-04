@@ -1,0 +1,64 @@
+:root {
+  --title-text-color: #212121;
+  --description-text-color: #757575;
+  --primary-font-family: 'Roboto', sans-serif;
+  --hover-color: #2196f3;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  letter-spacing: 0.03em;
+}
+.nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--hover-color);
+}
+.contact-list {
+  color: var(--description-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-list:hover,
+.contact-list:focus {
+  color: var(--hover-color);
+}
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--hover-color);
+  font-family: var(--primary-font-family);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  border: #2196f3;
+}
