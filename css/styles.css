@@ -30,6 +30,9 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.active {
+  color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -99,6 +102,7 @@ li {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color:#F5F4FA;;
 }
 .team-list {
   font-weight: 500;
@@ -139,3 +143,18 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+/* ========Portfolio button======== */
+.portfolio-button {
+  background-color: #F5F4FA;
+  font-family: var(--primary-font-family);
+ font-weight: 500;
+font-size: 16px;
+line-height: 1,62;
+text-align: center;
+letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+background-color: #2196F3;
